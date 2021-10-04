@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gradingTask", "gradingTask.csproj", "{010B5A41-5FD8-4303-BF34-A7F319152ECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48FD17F1-BF9D-4C34-8D03-E5FC5350A2DB}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010B5A41-5FD8-4303-BF34-A7F319152ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010B5A41-5FD8-4303-BF34-A7F319152ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010B5A41-5FD8-4303-BF34-A7F319152ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010B5A41-5FD8-4303-BF34-A7F319152ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03290622-CE28-4043-B248-7626A38B7A71}
+	EndGlobalSection
+EndGlobal
