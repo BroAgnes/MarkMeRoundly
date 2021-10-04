@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.IO;
-using System.Threading.Tasks;
+using System.Reflection;
 
 
 namespace gradingTask
@@ -10,7 +10,8 @@ namespace gradingTask
     {
         static void Main(string[] args)
         {
-            string text = System.IO.File.ReadAllText("C:/Users/agnese.broka/source/repos/gardingTask/input.txt");
+            var inputPath = AppDomain.CurrentDomain.BaseDirectory + "//input.txt";
+            string text = System.IO.File.ReadAllText(inputPath);
             int[] grades = text.Split(',').Select(int.Parse).ToArray();
             Console.WriteLine(String.Join(", ", grades));
             for(int i = 0; i < grades.Length; i++)
