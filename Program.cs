@@ -16,7 +16,7 @@ namespace gradingTask
             Console.WriteLine(String.Join(", ", grades));
             for(int i = 0; i < grades.Length; i++)
             {
-                if (grades[i] < 38) continue;
+                if (grades[i] < 38 || grades[i]>99) continue;
                 int gradeLeft = (grades[i] / 10) * 10;
                 int gradeRight = grades[i] % 10;
                 int gradeRoundToNumber = gradeRight > 5 ? gradeLeft + 10 : gradeLeft + 5;
