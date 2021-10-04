@@ -12,7 +12,7 @@ namespace gradingTask
         {
             var inputPath = AppDomain.CurrentDomain.BaseDirectory + "//input.txt";
             string text = System.IO.File.ReadAllText(inputPath);
-            int[] grades = text.Split(',').Select(int.Parse).ToArray();
+            int[] grades = text.Split(',').Select(g => g.Trim() == "" ? 0 : Convert.ToInt32(g)).ToArray();
             Console.WriteLine(String.Join(", ", grades));
             for(int i = 0; i < grades.Length; i++)
             {
